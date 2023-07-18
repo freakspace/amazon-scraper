@@ -1,2 +1,4 @@
 selectorlib
 requests
+selenium
+webdriver-manager

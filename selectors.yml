@@ -1,41 +1,32 @@
 name:
-    css: '#productTitle'
-    type: Text
+  css: "#productTitle"
+  type: Text
 price:
-    css: '#price_inside_buybox'
-    type: Text
+  css: "#price"
+  type: Text
+price_alternative:
+  css: "#tmmSwatches .a-size-base.a-color-secondary"
+  type: Text
 short_description:
-    css: '#featurebullets_feature_div'
-    type: Text
-images:
-    css: '.imgTagWrapper img'
-    type: Attribute
-    attribute: data-a-dynamic-image
+  css: ".a-expander-content"
+  type: Text
+image:
+  css: "#imgBlkFront"
+  type: Attribute
+  attribute: src
+image_alternative:
+  css: "#main-image"
+  type: Attribute
+  attribute: src
 rating:
-    css: span.arp-rating-out-of-text
-    type: Text
-number_of_reviews:
-    css: 'a.a-link-normal h2'
-    type: Text
-variants:
-    css: 'form.a-section li'
-    multiple: true
-    type: Text
-    children:
-        name:
-            css: ""
-            type: Attribute
-            attribute: title
-        asin:
-            css: ""
-            type: Attribute
-            attribute: data-defaultasin
-product_description:
-    css: '#productDescription'
-    type: Text
-sales_rank:
-    css: 'li#SalesRank'
-    type: Text
-link_to_all_reviews:
-    css: 'div.card-padding a.a-link-emphasis'
-    type: Link
+  css: "#acrPopover .a-size-base.a-color-base"
+  type: Text
+author:
+  css: "._follow-the-author-card_style_authorNameColumn__1YFry a"
+  type: Text
+author_alternative:
+  css: "#detailsauthor a.a-link-normal"
+  type: Text
+pages:
+  css: "#rpi-attribute-book_details-fiona_pages .rpi-attribute-value span"
+  type: Text
